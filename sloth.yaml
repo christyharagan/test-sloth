@@ -1,0 +1,15 @@
+fn_name: AA4
+fn_type: source
+language: typescript
+debug_port: 5858
+sam_port: 3001
+proxy_port: 3002
+fn_id: sfnc_WeN1NkSe17
+github_deployment: true
+access_token_is_saved: true
+generate_tests: true
+use_ngrok: true
+work_slug: demo-vail-demo-0
+work_id: KhD9CEtNBP
+access_token: S3pSA7TB2k4lclX4oAc2ZmYhbqMNm3smZKiYCFuQ95A._nBx_NBd5b_knB8Hyh-Mi8NpZDTMKzjQfKpbxuNG1hg
+tp_name: Demo
