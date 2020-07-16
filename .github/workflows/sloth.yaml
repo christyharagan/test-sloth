@@ -12,7 +12,5 @@ jobs:
           node-version: '12.x'
       - name: Install dependencies
         run: npm install
-      - name: Install dependencies
-        run: npm install segment-sloth
       - name: Build and deploy Segment Function
-        uses: christyharagan/sloth-github-action@0.5
+        uses: christyharagan/sloth-github-action@v0.1.0
