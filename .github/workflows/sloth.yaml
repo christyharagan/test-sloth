@@ -7,4 +7,4 @@ jobs:
       - name: Checkout and Preparing Function
         uses: actions/checkout@v2
       - name: Build and deploy Segment Function
-        uses: christyharagan/sloth-github-action@v0.1
+        uses: christyharagan/sloth-github-action@0.1
