@@ -7,7 +7,7 @@
     "aws-sdk": "^2.677.0",
     "btoa": "^1.2.1",
     "form-data": "^3.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.0",
     "oauth": "^0.9.15",
     "segment-local-functions": "^0.1.0",
