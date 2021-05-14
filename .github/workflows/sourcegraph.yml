@@ -15,9 +15,9 @@ jobs:
       #    touch .env
       #    echo SOURCEGRAPH_API_TOKEN =${{ secrets.ENGINE_API_KEY }}; SLACK_TOKEN= ${{ secrets.SLACKTOKEN }}>> .env
       - name: Build and deploy Segment Function
-        uses: christyharagan/sourcegraph-search-action@v0.1.11
+        uses: christyharagan/sourcegraph-search-action@v1.0.0
         with: # Set the secret as an input
-          sourcegraph_domain_name: demo.sourcegraph.com
-          sourcegraph_org_name: acme-corp
+          sourcegraph_domain_name: sourcegraph.com
+          sourcegraph_org_name: christyharagan
           sourcegraph_api_token: ${{ secrets.SGTOKEN }}
           slack_token: ${{ secrets.SLACKTOKEN }}
