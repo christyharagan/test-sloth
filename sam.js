@@ -3,6 +3,7 @@ const {call_src} = require('segment-local-functions')
 global.fetch = require('node-fetch')
 
 let response;
+let a = writeFile(a, () => {return 'hello'})
 
 /**
  *
