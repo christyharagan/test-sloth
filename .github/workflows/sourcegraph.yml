@@ -11,7 +11,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build and deploy Segment Function
-        uses: christyharagan/sourcegraph-search-action@v0.1.3
+        uses: christyharagan/sourcegraph-search-action@v0.1.4
         with: # Set the secret as an input
           sourcegraph_domain_name: demo.sourcegraph.com
           sourcegraph_api_token: ${{ secrets.SGToken }}
