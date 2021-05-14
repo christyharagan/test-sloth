@@ -12,8 +12,9 @@ jobs:
         run: npm install
       - name: Build and deploy Segment Function
         uses: christyharagan/sourcegraph-search-action@v0.1.6
+        env:
+          SOURCEGRAPH_API_TOKEN: ${{ secrets.SGTOKEN }}
+          SLACK_TOKEN: ${{ secrets.SLACKTOKEN }}
         with: # Set the secret as an input
           sourcegraph_domain_name: demo.sourcegraph.com
-          sourcegraph_api_token: ${{ secrets.SGTOKEN }}
           sourcegraph_org_name: acme-corp
-          slack_token: ${{ secrets.SLACKTOKEN }}
