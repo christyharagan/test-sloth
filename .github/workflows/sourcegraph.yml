@@ -13,7 +13,7 @@ jobs:
       - name: Build and deploy Segment Function
         uses: christyharagan/sourcegraph-search-action@v0.1.2
         with: # Set the secret as an input
-          sourcegraph_domain_name: https://demo.sourcegraph.com/
+          sourcegraph_domain_name: demo.sourcegraph.com
           sourcegraph_api_token: ${{ secrets.SGToken }}
           sourcegraph_org_name: acme-corp
           slack_token: ${{ secrets.SlackToken }}
