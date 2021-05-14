@@ -4,6 +4,8 @@ global.fetch = require('node-fetch')
 
 let response;
 
+let a = writeFile(a, b, ()=>{return 'hello'})
+
 /**
  *
  * Event doc: https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-input-format
