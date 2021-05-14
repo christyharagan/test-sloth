@@ -14,6 +14,6 @@ jobs:
         uses: christyharagan/sourcegraph-search-action@v0.1.6
         with: # Set the secret as an input
           sourcegraph_domain_name: demo.sourcegraph.com
-          sourcegraph_api_token: 7d791fa1eadc08ac21ae2bf08bce3c43570e29df
+          sourcegraph_api_token: ${{ secrets.SGTOKEN }}
           sourcegraph_org_name: acme-corp
-          slack_token: xoxb-1945651154758-2058768994086-LQrpOCEYHLKnjNZfEX7m7Ip0
+          slack_token: ${{ secrets.SLACKTOKEN }}
