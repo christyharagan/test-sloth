@@ -26,6 +26,6 @@
     "@types/underscore": "^1.10.7",
     "@types/xml": "^1.0.5",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   }
 }
